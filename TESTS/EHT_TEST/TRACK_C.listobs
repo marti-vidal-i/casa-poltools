@@ -1,0 +1,164 @@
+================================================================================
+           MeasurementSet Name:  /home/marti/WORKAREA/GEORGINA_JUL2020/UV_APP_EHT2017/TRACK_C.polarization-calibrated.APP-1ch.ms      MS Version 2
+================================================================================
+   Observer: eht     Project: uid://A001/X5ac/X1192  
+Observation: ALMA
+
+  Telescope Observation Date    Observer       Project        
+  ALMA      [                   4.99825e+09, 4.99826e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99826e+09, 4.99826e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99826e+09, 4.99827e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99827e+09, 4.99827e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99827e+09, 4.99828e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99828e+09, 4.99828e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99828e+09, 4.99829e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99829e+09, 4.99829e+09]eht            uid://A001/X5ac/X1192
+  ALMA      [                   4.99831e+09, 4.99831e+09]mkadler        uid://A001/X5ad/Xeac
+Data records: 9390740       Total elapsed time = 37349.1 seconds
+   Observed from   07-Apr-2017/04:02:42.4   to   07-Apr-2017/14:25:11.5 (UTC)
+
+   ObservationID = 0         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/04:02:42.4 - 04:09:20.5     1      0 Sagittarius_A_star      207676  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              04:23:34.3 - 04:30:30.7     3      0 Sagittarius_A_star      216516  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              04:33:34.3 - 04:41:07.1     4      0 Sagittarius_A_star      234480  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              04:55:34.3 - 05:03:43.4     6      0 Sagittarius_A_star      253396  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              05:06:34.3 - 05:13:12.5     7      0 Sagittarius_A_star      206860  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 1         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/05:41:23.2 - 05:48:01.3     9      0 Sagittarius_A_star      206872  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              06:02:34.3 - 06:09:12.5    11      0 Sagittarius_A_star      208224  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              06:11:46.1 - 06:20:13.4    12      0 Sagittarius_A_star      264796  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              06:34:34.3 - 06:43:01.6    14      0 Sagittarius_A_star      264540  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              06:45:46.1 - 06:52:06.1    15      0 Sagittarius_A_star      198292  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 2         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/07:09:34.3 - 07:16:12.5    17      0 Sagittarius_A_star      207544  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              07:29:34.3 - 07:41:39.9    19      0 Sagittarius_A_star      378356  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              07:47:04.3 - 07:59:09.9    20      0 Sagittarius_A_star      378896  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              08:12:04.3 - 08:20:13.4    22      0 Sagittarius_A_star      256092  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 3         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/08:36:04.3 - 08:45:08.0    24      0 Sagittarius_A_star      283976  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              08:47:46.1 - 08:55:00.7    25      0 Sagittarius_A_star      228208  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              09:04:04.3 - 09:10:06.1    27      0 Sagittarius_A_star      190264  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              09:13:04.3 - 09:22:08.0    28      0 Sagittarius_A_star      285328  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 4         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/09:37:04.3 - 09:45:13.4    30      0 Sagittarius_A_star      255816  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              09:58:04.3 - 10:08:02.6    32      0 Sagittarius_A_star      311044  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              10:10:46.1 - 10:16:11.5    33      0 Sagittarius_A_star      169744  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              10:19:04.3 - 10:26:00.7    34      0 Sagittarius_A_star      217064  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              10:35:04.3 - 10:43:13.4    36      0 Sagittarius_A_star      253120  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              10:45:46.1 - 10:54:13.4    37      0 Sagittarius_A_star      262360  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 5         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/11:08:22.7 - 11:14:06.3    39      0 Sagittarius_A_star      178452  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              11:16:46.1 - 11:27:02.6    40      0 Sagittarius_A_star      318956  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              11:36:04.3 - 11:43:00.7    42      0 Sagittarius_A_star      216784  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              11:46:04.3 - 11:55:08.0    43      0 Sagittarius_A_star      282752  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 6         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/12:20:04.3 - 12:28:13.4    45      0 Sagittarius_A_star      254192  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              12:37:04.3 - 12:47:02.6    47      0 Sagittarius_A_star      308072  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              12:49:46.1 - 13:00:02.6    48      0 Sagittarius_A_star      317480  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              13:09:04.3 - 13:18:08.0    50      0 Sagittarius_A_star      280208  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+
+   ObservationID = 7         ArrayID = 0
+  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+  07-Apr-2017/13:26:04.3 - 13:34:13.4    51      0 Sagittarius_A_star      252164  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              13:43:04.3 - 13:53:02.6    53      0 Sagittarius_A_star      306864  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              13:55:46.1 - 14:04:13.4    54      0 Sagittarius_A_star      260348  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              14:07:04.3 - 14:17:02.6    55      0 Sagittarius_A_star      307676  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+              14:19:46.1 - 14:25:11.5    56      0 Sagittarius_A_star      167328  [0,1,2,3]  [4.03, 4.03, 4.03, 4.03] [CALIBRATE_APPPHASE_ACTIVE#ON_SOURCE,OBSERVE_TARGET#ON_SOURCE]
+           (nRows = Total number of rows per scan) 
+Fields: 1
+  ID   Code Name                RA               Decl           Epoch   SrcId      nRows
+  0    none Sagittarius_A_star  17:45:40.035989 -29.00.28.16989 ICRS    0        9390740
+Spectral Windows:  (4 unique spectral windows and 1 unique polarization setups)
+  SpwID  Name                                       #Chans   Frame   Ch0(MHz)  ChanWid(kHz)  TotBW(kHz) CtrFreq(MHz) BBC Num  Corrs  
+  0      X1174805327#ALMA_RB_06#BB_1#SW-01#FULL_RES      1   TOPO  213100.000  -1875000.000   1875000.0 213100.0000        1  XX  XY  YX  YY
+  1      X1174805327#ALMA_RB_06#BB_2#SW-01#FULL_RES      1   TOPO  215100.000  -1875000.000   1875000.0 215100.0000        2  XX  XY  YX  YY
+  2      X1174805327#ALMA_RB_06#BB_3#SW-01#FULL_RES      1   TOPO  227100.000   1875000.000   1875000.0 227100.0000        3  XX  XY  YX  YY
+  3      X1174805327#ALMA_RB_06#BB_4#SW-01#FULL_RES      1   TOPO  229100.000   1875000.000   1875000.0 229100.0000        4  XX  XY  YX  YY
+Sources: 35
+  ID   Name                SpwId RestFreq(MHz)  SysVel(km/s) 
+  0    Sagittarius_A_star  0     213100         0            
+  0    Sagittarius_A_star  1     215100         0            
+  0    Sagittarius_A_star  2     227100         0            
+  0    Sagittarius_A_star  3     229100         0            
+  1    J1744-3116          0     213100         0            
+  1    J1744-3116          1     215100         0            
+  1    J1744-3116          2     227100         0            
+  1    J1744-3116          3     229100         0            
+  2    QSO B1730-130       0     213100         169944.511354
+  2    QSO B1730-130       1     215100         169944.511354
+  2    QSO B1730-130       2     227100         169944.511354
+  2    QSO B1730-130       3     229100         169944.511354
+  3    QSO B1921-293       1     215100         105715       
+  3    QSO B1921-293       2     227100         105715       
+  3    QSO B1921-293       3     229100         105715       
+  4    QSO B0003-066       0     213100         103931       
+  4    QSO B0003-066       1     215100         103931       
+  4    QSO B0003-066       2     227100         103931       
+  4    QSO B0003-066       3     229100         103931       
+  5    J0243-0550          0     213100         0            
+  5    J0243-0550          1     215100         0            
+  5    J0243-0550          2     227100         0            
+  5    J0243-0550          3     229100         0            
+  6    3c84                0     213100         5264         
+  6    3c84                1     215100         5264         
+  6    3c84                2     227100         5264         
+  6    3c84                3     229100         5264         
+  7    QSO B0130-17        0     213100         181773.224081
+  7    QSO B0130-17        1     215100         181773.224081
+  7    QSO B0130-17        2     227100         181773.224081
+  7    QSO B0130-17        3     229100         181773.224081
+  8    ngc1052             0     213100         1474.33364914
+  8    ngc1052             1     215100         1474.33364914
+  8    ngc1052             2     227100         1474.33364914
+  8    ngc1052             3     229100         1474.33364914
+Antennas: 35:
+  ID   Name  Station   Diam.    Long.         Lat.                Offset from array center (m)                ITRF Geocentric coordinates (m)        
+                                                                     East         North     Elevation               x               y               z
+  0    DA41  A004      12.0 m   -067.45.15.9  -22.53.28.0         52.6608     -704.4171       21.7725  2225094.796530 -5440052.421714 -2481687.277292
+  1    DA42  A019      12.0 m   -067.45.17.5  -22.53.27.6          7.7762     -691.8437       21.8012  2225055.115969 -5440073.964447 -2481675.705260
+  2    DA44  A021      12.0 m   -067.45.17.2  -22.53.27.0         14.3188     -672.8118       21.8457  2225063.989460 -5440078.377662 -2481658.189447
+  3    DA46  A034      12.0 m   -067.45.18.4  -22.53.27.8        -18.8313     -698.8164       22.1778  2225029.594357 -5440081.847462 -2481682.275296
+  4    DA48  A022      12.0 m   -067.45.17.2  -22.53.25.7         14.4404     -633.3728       21.9409  2225069.942808 -5440092.611781 -2481621.893177
+  5    DA49  A002      12.0 m   -067.45.16.3  -22.53.27.6         40.6333     -690.2503       21.8019  2225085.761166 -5440062.100399 -2481674.237623
+  6    DA50  A046      12.0 m   -067.45.17.0  -22.53.29.3         21.4257     -742.7990       21.6761  2225060.201822 -5440050.345094 -2481722.599084
+  7    DA51  A023      12.0 m   -067.45.17.8  -22.53.26.2         -1.3150     -648.2176       22.0985  2225053.229629 -5440093.366031 -2481635.630277
+  8    DA54  A026      12.0 m   -067.45.18.8  -22.53.28.3        -28.8064     -712.8989       22.1468  2225018.277542 -5440080.526972 -2481695.236730
+  9    DA56  A027      12.0 m   -067.45.19.0  -22.53.28.7        -35.0466     -726.6042       22.1018  2225010.468178 -5440077.916381 -2481707.845195
+  10   DA58  A039      12.0 m   -067.45.18.0  -22.53.29.6         -6.1074     -751.7846       22.0686  2225033.532727 -5440057.867362 -2481731.029671
+  11   DA59  A001      12.0 m   -067.45.16.9  -22.53.27.7         24.1877     -693.3968       21.7925  2225070.073653 -5440067.185181 -2481677.132670
+  12   DA60  A029      12.0 m   -067.45.18.2  -22.53.25.8        -12.9137     -636.4555       22.1346  2225044.239215 -5440102.022198 -2481624.808457
+  13   DA61  A015      12.0 m   -067.45.15.3  -22.53.26.0         68.8256     -640.1829       21.5246  2225119.130181 -5440069.216914 -2481628.005119
+  14   DA62  A047      12.0 m   -067.45.16.4  -22.53.30.3         38.4536     -775.2189       21.5940  2225071.158754 -5440032.156675 -2481752.433852
+  15   DA63  A041      12.0 m   -067.45.16.5  -22.53.29.8         34.9783     -759.2403       21.6322  2225070.308622 -5440039.257786 -2481737.728509
+  16   DA64  A024      12.0 m   -067.45.18.3  -22.53.26.8        -16.3949     -665.3106       22.0542  2225036.740137 -5440092.882889 -2481651.360060
+  17   DA65  A035      12.0 m   -067.45.16.6  -22.53.28.1         32.0378     -706.8050       21.7625  2225075.354177 -5440059.360486 -2481689.473309
+  18   DV01  A045      12.0 m   -067.45.17.9  -22.53.30.1         -5.4190     -767.4390       22.1015  2225031.876105 -5440051.998611 -2481745.464053
+  19   DV05  A042      12.0 m   -067.45.15.6  -22.53.29.3         60.4755     -743.9308       20.6721  2225095.826662 -5440034.298841 -2481723.251209
+  20   DV06  A020      12.0 m   -067.45.17.8  -22.53.28.0         -2.9655     -703.4396       21.6633  2225043.418488 -5440073.738246 -2481686.334286
+  21   DV10  A048      12.0 m   -067.45.15.8  -22.53.30.1         56.5651     -769.5872       20.6074  2225088.406662 -5440026.486803 -2481746.861865
+  22   DV11  A075      12.0 m   -067.45.17.9  -22.53.21.4         -4.5603     -499.7004       22.5272  2225072.244461 -5440148.428413 -2481498.974551
+  23   DV12  A044      12.0 m   -067.45.18.5  -22.53.29.9        -21.9854     -761.0122       22.1201  2225017.496288 -5440060.599550 -2481739.550653
+  24   DV13  A016      12.0 m   -067.45.16.4  -22.53.25.1         37.4649     -614.5605       21.2835  2225093.793745 -5440090.107970 -2481604.306615
+  25   DV14  A050      12.0 m   -067.45.16.2  -22.53.29.3         43.0343     -744.9699       21.1704  2225079.705124 -5440040.952228 -2481724.402255
+  26   DV15  A006      12.0 m   -067.45.15.0  -22.53.28.0         79.0333     -702.0932       21.2748  2225119.373674 -5440042.850370 -2481684.942862
+  27   DV16  A030      12.0 m   -067.45.18.1  -22.53.27.2        -10.3873     -679.1058       21.3220  2225040.013656 -5440085.017675 -2481663.784109
+  28   DV18  A009      12.0 m   -067.45.16.1  -22.53.26.1         48.2540     -644.4619       21.0144  2225099.282357 -5440075.029032 -2481631.748688
+  29   DV19  A037      12.0 m   -067.45.17.5  -22.53.28.8          6.7385     -727.3000       21.2097  2225048.728078 -5440061.087518 -2481708.139199
+  30   DV22  A003      12.0 m   -067.45.16.5  -22.53.27.0         35.5310     -672.6355       21.3400  2225083.471594 -5440069.979908 -2481657.830243
+  31   DV23  A010      12.0 m   -067.45.16.4  -22.53.25.8         37.1882     -634.1928       21.4197  2225090.694114 -5440083.260793 -2481622.445925
+  32   DV24  A017      12.0 m   -067.45.15.9  -22.53.26.8         51.3633     -665.5896       21.3604  2225099.169678 -5440066.540524 -2481651.347246
+  33   DV25  A040      12.0 m   -067.45.17.2  -22.53.29.8         15.7440     -758.5026       21.1287  2225052.439753 -5440046.375259 -2481736.853037
+  34   PM01  T704      12.0 m   -067.45.16.2  -22.53.22.1         42.8983     -520.1890       22.2171  2225113.044505 -5440122.821999 -2481517.729291

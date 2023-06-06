@@ -1,0 +1,102 @@
+STEPS TO INSTALL THE POLSOLVE AND POLSIMULATE TASKS INTO CASA 6.x
+
+
+###################################
+### FIRST: GET THE SOFTWARE!
+
+0. Download and install CASA. Just go to:
+
+   https://casa.nrao.edu/casa_obtaining.shtml
+
+   and follow the instructions. 
+
+
+
+1.- Download and untar the CASA-poltools. These are in:
+
+     https://github.com/marti-vidal-i/casa-poltools
+
+   Put the CASA-poltools into a directory. Let us assume, from
+   now on, that the poltools are located in the directory
+ 
+    POLTOOLSPATH=/home/you/.casa/PolTools
+
+##############################################
+
+
+
+###################################
+### SECOND: COMPILE THE SOFTWARE!
+
+
+2.- If it exists, delete any file with an *.so extension
+    from the directory $POLTOOLSPATH.
+
+
+    
+3.- Compile the C++ modules.
+
+   3.1.- First, install the needed libraries. 
+     For instance, in Debian, run in a terminal (as root):
+
+     apt-get install python-dev
+
+     or, in Mac OS:
+ 
+     brew reinstall python
+
+
+   3.2.- Just run in a terminal:
+
+      cd $POLTOOLSPATH
+      rm -f *.so
+      $CASABASE/bin/python3 setup.py build_ext --inplace
+
+   where "$CASABASE" is the path to your CASA installation.
+   You can find this path by running (in your CASA prompt)
+   the following lines:
+
+   import os
+   os.environ.get('CASAPATH').split()[0]
+
+
+
+4.- Configure CASA to load the tasks:
+
+   4.1.- Edit your startup script, which is:
+
+        /home/you/.casa/config.py
+
+   The script should have the following lines in it:
+
+-------------------------
+import sys
+
+# This should be the path where you have the poltools:
+POLTOOLSPATH = '/home/you/.casa/PolTools'
+sys.path.append(POLTOOLSPATH)
+
+-------------------------
+
+
+       
+5.- That's it! You should be able to run the poltools in CASA!
+    These are loaded as functions (i.e., no tasks anymore).
+    The modules should be loaded by running:
+
+from task_polsolve import polsolve as polsolve
+from task_polsimulate import polsimulate as polsimulate
+from task_CCextract import CCextract as CCextract
+from poltools_helper import plotPolImage
+
+
+To get some help text about the three tools, just execute 
+either of:
+
+polsolve()
+
+polsimulate()
+
+CCextract()
+ 
+
