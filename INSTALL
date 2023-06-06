@@ -37,6 +37,8 @@ STEPS TO INSTALL THE POLSOLVE AND POLSIMULATE TASKS INTO CASA 6.x
 3.- Compile the C++ modules.
 
    3.1.- First, install the needed libraries. 
+         THIS STEP MAY NOT BE NEEDED (WHO KNOWS!)
+
      For instance, in Debian, run in a terminal (as root):
 
      apt-get install python-dev
@@ -46,18 +48,31 @@ STEPS TO INSTALL THE POLSOLVE AND POLSIMULATE TASKS INTO CASA 6.x
      brew reinstall python
 
 
-   3.2.- Just run in a terminal:
+   3.2.- Get the path where CASA is installed.
+         Just execute CASA and get the output of this:
+
+         import os
+         os.environ.get('CASAPATH').split()[0]
+
+     Let us call this output "CASABASE".
+   
+
+   3.3.- Now, run a terminal, go to the path where 
+         you have the PolTools and compile them:
+
+    -- IF USING GNU/Linux:
 
       cd $POLTOOLSPATH
-      rm -f *.so
       $CASABASE/bin/python3 setup.py build_ext --inplace
 
-   where "$CASABASE" is the path to your CASA installation.
-   You can find this path by running (in your CASA prompt)
-   the following lines:
+    -- IF USING MACOS:
 
-   import os
-   os.environ.get('CASAPATH').split()[0]
+      cd $POLTOOLSPATH
+      $CASABASE/MacOS/python3 setup.py build_ext --inplace
+
+
+   where "$CASABASE" is the path to your CASA installation.
+   (remember that we got it in step 3.2).
 
 
 
@@ -84,10 +99,11 @@ sys.path.append(POLTOOLSPATH)
     These are loaded as functions (i.e., no tasks anymore).
     The modules should be loaded by running:
 
-from task_polsolve import polsolve as polsolve
-from task_polsimulate import polsimulate as polsimulate
-from task_CCextract import CCextract as CCextract
+from task_polsolve import polsolve
+from task_polsimulate import polsimulate
+from task_CCextract import CCextract
 from poltools_helper import plotPolImage
+from poltools_helper import plotPolTraces
 
 
 To get some help text about the three tools, just execute 

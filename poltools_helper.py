@@ -468,7 +468,7 @@ def plotPolCovMatrix(CVfile,antnam,gamma=0.4, outname = 'CovMatrix.png',kind=1):
 
 
 
-def PlotPolTraces(vis = [], antennas = []): #['AA','AP','AZ','LM']):
+def plotPolTraces(vis = [], antennas = []): #['AA','AP','AZ','LM']):
   """ Plots (a comparison of) the closure traces of all the 
       measurement sets in the "vis" list. Exactly the same UV 
       sampling is assumed for all the measurement sets in the list.
