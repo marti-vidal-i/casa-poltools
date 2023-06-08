@@ -45,7 +45,7 @@ ms = mset()
 
 
 # Load LaTeX fonts:
-if False:
+if True:
   plt.rcParams['text.latex.preamble']=[r"\usepackage{lmodern}"]
   params = {'text.usetex' : True,
           'font.size' : 18,
@@ -182,7 +182,7 @@ def plotPolImage(img, mSigmaCut = 5., SigmaCut = 3., dPol = 20, lPol = 0.05,
 
   m[np.isnan(m)] = 0.0
 
-  mask = np.zeros(np.shape(m),dtype=np.bool)
+  mask = np.zeros(np.shape(m),dtype=bool)
   mask[:] = (m > RMS*SNR_CUT)*(imdata['I'] > RMS*SNR_CUT)
 
 

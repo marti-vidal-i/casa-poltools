@@ -4,11 +4,12 @@
 # resolved calibrator.
 # This script complements the contents of the paper:
 
-# I. Marti-Vidal, A. Mus, P. de Vicente & J. Gonzalez (2020), ... TBC
+# I. Marti-Vidal et al. 2021, A&A, 646, 52
 
 
 
 
+from task_polsimulate import polsimulate
 
 import numpy as np
 import os

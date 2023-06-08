@@ -5,10 +5,10 @@
 # strategy, as originally implemented in LPCAL (Leppanen 1995).
 # This script complements the contents of the paper:
 
-# I. Marti-Vidal, A. Mus, P. de Vicente & J. Gonzalez (2020), ... TBC
+# I. Marti-Vidal et al. 2021, A&A, 646, 52
 
 
-
+from task_polsolve import polsolve
 
 
 import numpy as np
