@@ -45,7 +45,7 @@ ms = mset()
 
 
 # Load LaTeX fonts:
-if True:
+if False:
   plt.rcParams['text.latex.preamble']=[r"\usepackage{lmodern}"]
   params = {'text.usetex' : True,
           'font.size' : 18,
@@ -161,21 +161,24 @@ def plotPolImage(img, mSigmaCut = 5., SigmaCut = 3., dPol = 20, lPol = 0.05,
   xc = np.linspace(IMSIZE, -IMSIZE, NPIX)
   yc = np.linspace(-IMSIZE, IMSIZE, NPIX)
   xyc = np.meshgrid(yc,xc)
-
-  try:
+  if True:
+#  try:
     if 'restoringbeam' in summ.keys():
       M = summ['restoringbeam']['major']['value']
       m = summ['restoringbeam']['minor']['value']
       PA = summ['restoringbeam']['positionangle']['value']
+      BUnit = summ['restoringbeam']['major']['unit']
     else:
       BB = summ['perplanebeams']['beams']['*0']['*0']
       M = BB['major']['value']
       m = BB['minor']['value']
       PA = BB['positionangle']['value']
-    Rbeam = [M,m,PA]
-  except:
-    print("No beam information available!")
-    Rbeam = [0.0, 0.0, 0.0] 
+      BUnit = BB['major']['unit']
+    Rbeam = [M*Kfac[BUnit],m*Kfac[BUnit],PA]
+    print('Beam: ',Rbeam)
+#  except:
+#    print("No beam information available!")
+#    Rbeam = [0.0, 0.0, 0.0] 
 
 
   m = np.sqrt(imdata['Q']**2. + imdata['U']**2.)
@@ -272,7 +275,7 @@ def plotPolImage(img, mSigmaCut = 5., SigmaCut = 3., dPol = 20, lPol = 0.05,
 
 
   beambox = AnchoredAuxTransformBox(sub.transData, loc=3,frameon=False)
-  beamplot = Ellipse((0,0), width=Rbeam[0]*Kfac[figUnit], height=Rbeam[1]*Kfac[figUnit], angle=90.-Rbeam[2],alpha=0.5)
+  beamplot = Ellipse((0,0), width=Rbeam[0]/Kfac[figUnit], height=Rbeam[1]/Kfac[figUnit], angle=90.-Rbeam[2],alpha=0.5)
   beamplot.set_facecolor(beamcolor)
   beambox.drawing_area.add_artist(beamplot)
   sub.add_artist(beambox)

@@ -278,7 +278,7 @@ def _maskit(x, y, z, N, fontsize, plotsize,myplot=0,Iam=0):
     thiscomp_z = []
     thiscomp_N = []
     if mask_area.any():
-        mask = np.zeros(len(x),dtype=np.bool)
+        mask = np.zeros(len(x),dtype=bool)
         for i,xval in enumerate(x):
             yval   = y[i]
             inside = if_inside_polygon(xval,yval, mask_area)
